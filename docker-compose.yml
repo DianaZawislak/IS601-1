@@ -2,6 +2,8 @@ version: "3.2"
 services:
   flask:
     build: .
+    image: kaw393939/flask:latest
+    container_name: nginx
     restart: always
     environment:
       - APP_NAME=flask
@@ -12,6 +14,7 @@ services:
     volumes:
       - .:/home/myuser
   nginx:
+    image: kaw393939/nginx:latest	
     build: ./nginx
     container_name: nginx
     restart: always
