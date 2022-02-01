@@ -3,7 +3,7 @@ services:
   flask:
     build: .
     image: kaw393939/flask:latest
-    container_name: nginx
+    container_name: python
     restart: always
     environment:
       - APP_NAME=flask
