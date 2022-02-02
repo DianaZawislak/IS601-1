@@ -1,1 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    {% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+        <title>{% block title %}{% endblock %}This is {{ name }} Website</title>
+    {% endblock %}
+
+</head>
+<body>
 My name is: {{ name }}
+</body>
+</html>
