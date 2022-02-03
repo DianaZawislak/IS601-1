@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   flask:
-    build: .
+    build: ./app
     image: kaw393939/flask:latest
     container_name: python
     restart: always
@@ -12,9 +12,9 @@ services:
     stdin_open: true # docker run -i
     tty: true        # docker run -t
     volumes:
-      - .:/home/myuser
+      - ./app:/home/myuser
   nginx:
-    image: kaw393939/nginx:latest	
+    image: kaw393939/nginx:latest
     build: ./nginx
     container_name: nginx
     restart: always
