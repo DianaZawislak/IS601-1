@@ -1,3 +1,24 @@
 body {
     font-family: Helvetica, "Helvetica Neue", sans-serif;
 }
+.red {
+    color: red
+}
+.makeBigger {
+    font_size: 120%;
+}
+.blue {
+    color: blue;
+}
+.brush_script {
+    font-family: "Brush Script MT", cursive, sans-serif;
+}
+.fontSize40 {
+    font-size: 40px;
+}
+.fontSize20 {
+    font-size: 20px;
+}
+.lightblue {
+    color: #5D93F2;
+}
