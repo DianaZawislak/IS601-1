@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica, "Helvetica Neue", sans-serif;
+    background-color: silver;
 }
 .red {
     color: red
@@ -22,3 +23,67 @@ body {
 .lightblue {
     color: #5D93F2;
 }
+
+.darkgrey {
+ color: #303030;
+}
+
+body {
+ font-family: Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.hand {
+ font-family: "lucida handwriting", "Courier New", monospace;
+}
+
+.outset {
+ border-style: outset;
+ border-color: grey;
+ border-width: 20px;
+}
+
+.font25 {
+ font-size: 25px;
+}
+
+.grey {
+ background-color: #303030;
+}
+
+/*change color of non-active pill*/
+.nav-pills .pill-2 .nav-link:not(.active) {
+ background-color: #282828;
+ color: white;
+}
+
+/*change color of active pill */
+.nav-pills .pill-1 .nav-link {
+ background-color: #101010;
+ color: white;
+}
+
+.font18 {
+font-size: 18px;
+}
+
+.offwhite {
+font-color: #E0E0E0;
+}
+
+.font25
+font-size: 25px;
+}
+
+
+.font60
+font-size: 60px;
+}
+
+.custnav {
+ font-size: 60px;
+ font-family: "Lucida handwriting", "Courier New", monospace;
+ margin-left: 300px !important;
+}
+.margin{
+ margin-left: -600px;
+
